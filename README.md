@@ -119,7 +119,7 @@ Terms for using Grok’s components and this list.
 - **This Awesome List**: Licensed under the MIT License.
 
 ## Contributing
-To add resources, submit a pull request to [Awesome Grok Repository](https://github.com/example/awesome-grok). Ensure links are valid and align with Grok’s mission.
+To add resources, submit a pull request to [Awesome Grok Repository](https://github.com/milisp/awesome-grok). Ensure links are valid and align with Grok’s mission.
 
 ## Changelog
 Track updates to this list.
