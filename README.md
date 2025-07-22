@@ -1,4 +1,4 @@
-# Awesome Grok
+# Awesome Grok [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of resources for Grok, the AI developed by xAI to advance human understanding of the universe with truthful and insightful answers.
 
@@ -8,6 +8,7 @@ A curated list of resources for Grok, the AI developed by xAI to advance human u
 - [Tutorials](#tutorials)
 - [Community](#community)
 - [Tools and Libraries](#tools-and-libraries)
+- [CLI Tools](#cli-tools)
 - [Research Papers](#research-papers)
 - [News and Articles](#news-and-articles)
 - [Grok Version Status](#grok-version-status)
@@ -15,6 +16,15 @@ A curated list of resources for Grok, the AI developed by xAI to advance human u
 - [Licensing and Usage](#licensing-and-usage)
 - [Contributing](#contributing)
 - [Changelog](#changelog)
+
+## Use Cases
+Real-world applications and scenarios where Grok excels.
+
+- **Customer Support Automation**: Automate responses to user queries with structured outputs and real-time search.
+- **Scientific Research Summarization**: Summarize and analyze large datasets or scientific papers.
+- **Code Generation and Review**: Use Grok’s structured function calls to generate or refactor code with contextual awareness.
+- **Multimodal Tasking**: Combine image and text inputs for tasks like product classification or visual Q&A.
+- **Real-Time Decision Support**: Use Grok's live tools and memory features for trading, engineering, or logistics support.
 
 ## Official Resources
 Primary sources from xAI to access and learn about Grok.
@@ -59,6 +69,11 @@ Libraries and integrations to build with Grok.
 | LangChain xAI Integration | LangChain support for xAI models, enabling easy integration with Grok for chat and streaming tasks. | [Documentation](https://python.langchain.com/docs/integrations/providers/xai/) |
 | Hugging Face Integration | Use Grok models with Hugging Face’s Transformers library. | [Hugging Face Hub](https://huggingface.co/xai) |
 
+## CLI Tools
+Command-line tools for interacting with Grok.
+
+- **[grok-cli](https://github.com/superagent-ai/grok-cli)** - An open-source AI agent that brings the power of Grok directly into your terminal.
+
 ## Research Papers
 Academic papers exploring Grok’s capabilities.
 
@@ -96,11 +111,12 @@ Common issues and workarounds.
 - **Image Generation Errors**: Ensure input prompts comply with xAI’s content guidelines.
 
 ## Licensing and Usage
-Terms for using Grok’s components.
+Terms for using Grok’s components and this list.
 
 - **Grok-1**: Licensed under Apache 2.0, available for non-commercial research. ([GitHub](https://github.com/xai-org/grok-1))
 - **Grok API**: Commercial use subject to xAI’s terms. See [xAI API Terms](https://x.ai/api-terms).
 - **Apps**: Free usage with quotas; higher limits with SuperGrok or Premium+ subscriptions.
+- **This Awesome List**: Licensed under the MIT License.
 
 ## Contributing
 To add resources, submit a pull request to [Awesome Grok Repository](https://github.com/example/awesome-grok). Ensure links are valid and align with Grok’s mission.
