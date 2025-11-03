@@ -73,6 +73,7 @@ Libraries and integrations to build with Grok.
 Command-line tools for interacting with Grok.
 
 - **[grok-cli](https://github.com/superagent-ai/grok-cli)** - An open-source AI agent that brings the power of Grok directly into your terminal.
+- **[grok-one-shot](https://github.com/x-cli-team/x-cli)** - The self-building CLI powered by xAI’s Grok API. One-shot vibe coding with smart pushes, .agent memory, FsPort multi-repo orchestration, and built-in CI/CD (GH Actions + NPM). Install: `npx -y @grok/one-shot@latest`.
 
 ## Research Papers
 Academic papers exploring Grok’s capabilities.
