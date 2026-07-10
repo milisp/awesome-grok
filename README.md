@@ -68,6 +68,7 @@ Libraries and integrations to build with Grok.
 | xai_grok_sdk | Lightweight third-party Python library for Grok API with minimal dependencies and function calling support. | [GitHub](https://github.com/moesmufti/xai_grok_sdk) |
 | LangChain xAI Integration | LangChain support for xAI models, enabling easy integration with Grok for chat and streaming tasks. | [Documentation](https://python.langchain.com/docs/integrations/providers/xai/) |
 | Hugging Face Integration | Use Grok models with Hugging Face’s Transformers library. | [Hugging Face Hub](https://huggingface.co/xai) |
+| SuperGrok Mac | Free, Apple-notarized native macOS app (Apple Silicon, macOS 14+) for working with Grok's coding agent — real project folders, a real shell with approval gates on every command, and restorable sessions. Fan-built, not affiliated with xAI; requires your own SuperGrok subscription or xAI API key. | [Website](https://supergrokmac.com) |
 
 ## CLI Tools
 Command-line tools for interacting with Grok.
