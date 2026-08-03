@@ -70,6 +70,7 @@ Libraries and integrations to build with Grok.
 | Hugging Face Integration | Use Grok models with Hugging Face’s Transformers library. | [Hugging Face Hub](https://huggingface.co/xai) |
 | SuperGrok Mac | Free, Apple-notarized native macOS app (Apple Silicon, macOS 14+) for working with Grok's coding agent — real project folders, a real shell with approval gates on every command, and restorable sessions. Fan-built, not affiliated with xAI; requires your own SuperGrok subscription or xAI API key. | [Website](https://supergrokmac.com) |
 | Agent Teams AI | Free, open-source desktop app for autonomous coding-agent teams, with SuperGrok support, task delegation, inter-agent messaging, a live Kanban board, and code review. | [GitHub](https://github.com/777genius/agent-teams-ai) |
+| Aeon | Autonomous agent framework that runs unattended on GitHub Actions and drives Grok (via its harness adapter) as one of six coding-agent harnesses behind a single contract, with quality scoring, persistent memory, and a self-healing loop. | [GitHub](https://github.com/aeonfun/aeon) |
 
 ## CLI Tools
 Command-line tools for interacting with Grok.
