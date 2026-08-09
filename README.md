@@ -71,7 +71,7 @@ Libraries and integrations to build with Grok.
 | SuperGrok Mac | Free, Apple-notarized native macOS app (Apple Silicon, macOS 14+) for working with Grok's coding agent — real project folders, a real shell with approval gates on every command, and restorable sessions. Fan-built, not affiliated with xAI; requires your own SuperGrok subscription or xAI API key. | [Website](https://supergrokmac.com) |
 | Agent Teams AI | Free, open-source desktop app for autonomous coding-agent teams, with SuperGrok support, task delegation, inter-agent messaging, a live Kanban board, and code review. | [GitHub](https://github.com/777genius/agent-teams-ai) |
 | Aeon | Autonomous agent framework that runs unattended on GitHub Actions and drives Grok (via its harness adapter) as one of six coding-agent harnesses behind a single contract, with quality scoring, persistent memory, and a self-healing loop. | [GitHub](https://github.com/aeonfun/aeon) |
-| Agent Island | Free, MIT-licensed macOS status companion that shows local working, stalled, and your-turn state for Grok, Claude Code, Codex, and Gemini CLI sessions, with provider usage tracking and no product telemetry. | [GitHub](https://github.com/tristan666666/agent-island) |
+| Agent Island | Free, MIT-licensed native status companion that shows local working, stalled and your-turn state for Grok, Claude Code, Codex, Gemini CLI and Cursor sessions, with provider usage and on-device cost estimates. macOS and Windows, no account, no product telemetry. | [GitHub](https://github.com/tristan666666/agent-island) |
 
 ## CLI Tools
 Command-line tools for interacting with Grok.
