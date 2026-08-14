@@ -72,6 +72,7 @@ Libraries and integrations to build with Grok.
 | Agent Teams AI | Free, open-source desktop app for autonomous coding-agent teams, with SuperGrok support, task delegation, inter-agent messaging, a live Kanban board, and code review. | [GitHub](https://github.com/777genius/agent-teams-ai) |
 | Aeon | Autonomous agent framework that runs unattended on GitHub Actions and drives Grok (via its harness adapter) as one of six coding-agent harnesses behind a single contract, with quality scoring, persistent memory, and a self-healing loop. | [GitHub](https://github.com/aeonfun/aeon) |
 | Agent Island | Free, MIT-licensed native status companion that shows local working, stalled and your-turn state for Grok, Claude Code, Codex, Antigravity and Cursor sessions, with provider usage and on-device cost estimates. macOS and Windows, no account, no product telemetry. | [GitHub](https://github.com/tristan666666/agent-island) |
+| Forge Design | Chrome extension + local bridge: pick or place a component on the live page, then local Grok edits the UI. Page data stays on-device. MIT. | [GitHub](https://github.com/forge-ui/forge-design-extension) |
 
 ## CLI Tools
 Command-line tools for interacting with Grok.
@@ -129,5 +130,6 @@ To add resources, submit a pull request to [Awesome Grok Repository](https://git
 ## Changelog
 Track updates to this list.
 
+- **August 2026**: Added Forge Design, a local-first Chrome extension for picking live page components and editing them with Grok.
 - **July 2025**: Added Grok 4 announcement, advanced tutorials, and community projects.
 - **March 2025**: Included Grok 3 Beta news and troubleshooting section.
