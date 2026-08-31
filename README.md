@@ -1,137 +1,90 @@
 # Awesome Grok [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of resources for Grok, the AI developed by xAI to advance human understanding of the universe with truthful and insightful answers.
+Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/grok-bot-more-plans)
 
-## Table of Contents
-- [Official Resources](#official-resources)
-- [Documentation](#documentation)
+> 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
+
+## Featured
+- [keke-agent](https://github.com/milisp/keke-agent) — Ultra-lightweight (7 MB) terminal coding agent written in Rust with Grok subscription login, directory routing, and non-interactive CI execution.
+
+## Contents
+
+- [Official](#official)
 - [Tutorials](#tutorials)
+- [SDKs and Integrations](#sdks-and-integrations)
+- [Apps and Agents](#apps-and-agents)
+- [CLI](#cli)
 - [Community](#community)
-- [Tools and Libraries](#tools-and-libraries)
-- [CLI Tools](#cli-tools)
-- [Research Papers](#research-papers)
-- [News and Articles](#news-and-articles)
-- [Grok Version Status](#grok-version-status)
-- [Troubleshooting](#troubleshooting)
-- [Licensing and Usage](#licensing-and-usage)
+- [Reading & Research](#reading--research)
 - [Contributing](#contributing)
-- [Changelog](#changelog)
 
-## Use Cases
-Real-world applications and scenarios where Grok excels.
+## Official
 
-- **Customer Support Automation**: Automate responses to user queries with structured outputs and real-time search.
-- **Scientific Research Summarization**: Summarize and analyze large datasets or scientific papers.
-- **Code Generation and Review**: Use Grok’s structured function calls to generate or refactor code with contextual awareness.
-- **Multimodal Tasking**: Combine image and text inputs for tasks like product classification or visual Q&A.
-- **Real-Time Decision Support**: Use Grok's live tools and memory features for trading, engineering, or logistics support.
-
-## Official Resources
-Primary sources from xAI to access and learn about Grok.
-
-- **[xAI Website](https://x.ai/)**: Official site detailing xAI’s mission to advance scientific discovery and updates on Grok.
-- **[Grok Page](https://x.ai/grok)**: Dedicated page showcasing Grok’s capabilities, including Grok Voice and image generation.
-- **[Grok API Console](https://console.x.ai/)**: Access the xAI API to integrate Grok into applications with enhanced speed and precision.
-- **[Developer Documentation](https://docs.x.ai/)**: Comprehensive guides for developers, covering API usage and common use cases.
-- **[GitHub: Grok-1](https://github.com/xai-org/grok-1)**: Open-source repository for Grok-1, a 314B parameter model with JAX example code.
-- **[Grok on App Store](https://apps.apple.com/us/app/grok/id6670324846)**: iOS app for interacting with Grok, featuring DeepSearch and image generation.
-- **[Grok on Google Play](https://play.google.com/store/apps/details?id=ai.x.grok)**: Android app for Grok, with similar features but noted issues like orientation change bugs.
-- **[Subscription Plans](https://grok.com/plans)**: Details on SuperGrok, Premium+, and SuperGrok Heavy tiers for accessing advanced models like Grok 4.
-
-## Documentation
-Official documentation for Grok’s technical details and API integration.
-
-- **[xAI Developer Docs](https://docs.x.ai/)**: Guides on Grok 4’s features (256,000-token context window, function calling, structured outputs) and comparisons with other services.
+- [SpaceXAI / xAI](https://x.ai/) — Official company site and platform announcements.
+- [Grok](https://x.ai/grok) — Official web product portal (Chat, Voice, DeepSearch, and Image Generation).
+- [API Console](https://console.x.ai/) — Key management, usage, billing, and playground.
+- [Developer Docs](https://docs.x.ai/) — Model specs (Grok 4.6, Grok 4.5), agentic tools, structured outputs, and API reference.
+- [Grok-1 (Open Weights)](https://github.com/xai-org/grok-1) — 314B-parameter open-weights checkpoint and JAX implementation (Apache 2.0).
+- [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official synchronous and asynchronous client library ([PyPI](https://pypi.org/project/xai-sdk/)).
+- [iOS App](https://apps.apple.com/us/app/grok/id6670324846) — Official iOS app with DeepSearch and voice support.
+- [Android App](https://play.google.com/store/apps/details?id=ai.x.grok) — Official Android app for Grok.
+- [Plans & Pricing](https://grok.com/plans) — SuperGrok, Premium+, and SuperGrok Heavy access tiers.
 
 ## Tutorials
-Step-by-step guides to use Grok effectively.
 
-- **[The Hitchhiker's Guide to Grok](https://docs.x.ai/docs/tutorial)**: Official xAI tutorial covering account creation, API key generation, requests, and image analysis.
-- **[Getting Started with xAI’s Grok API](https://lablab.ai/t/xai-beginner-tutorial)**: Beginner-friendly tutorial using Google Colab, exploring API interactions with SDKs and a notebook.
-- **[Advanced Grok API Workflows](https://docs.x.ai/docs/advanced-workflows)**: Guide to building multi-step AI workflows using Grok’s function calling and structured outputs.
+- [Hitchhiker's Guide to Grok](https://docs.x.ai/docs/tutorial) — Official step-by-step guide: API keys, basic chat, structured outputs, and vision.
+- [Grok 4.6 Agentic Workflows Quickstart](https://docs.x.ai/developers/grok-4-6) — Building autonomous subagent routines with Grok 4.6 tool calling.
+- [Getting Started with the Grok API](https://lablab.ai/t/xai-beginner-tutorial) — Beginner-friendly Google Colab walkthrough.
+
+## SDKs and Integrations
+
+- [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official gRPC/REST Python client with native async support.
+- [@ai-sdk/xai](https://sdk.vercel.ai/providers/ai-sdk-providers/xai) — Vercel AI SDK integration for Grok 4.6 and streaming agents.
+- [LangChain xAI Provider](https://python.langchain.com/docs/integrations/providers/xai/) — Chat, structured outputs, and memory integration.
+- [xai_grok_sdk](https://github.com/moesmufti/xai_grok_sdk) — Lightweight third-party Python wrapper with minimal dependencies.
+- [Hugging Face: xAI](https://huggingface.co/xai) — Hosted open artifacts and checkpoints (Grok-1).
+
+## Apps and Agents
+
+- [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.6 integration and SpaceX Colossus GPU compute backends.
+- [Grok Bot](https://x.ai/news/grok-bot-more-plans) — Official SpaceXAI autonomous agent teammate for work automation and X API actions.
+- [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
+- [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
+- [Aeon](https://github.com/aeonfun/aeon) — Unattended GitHub Actions agent loop utilizing Grok as an execution harness.
+- [Agent Island](https://github.com/tristan666666/agent-island) — Cross-platform menu-bar companion for monitoring Grok, Claude Code, and Cursor local agent sessions.
+- [Forge Design](https://github.com/forge-ui/forge-design-extension) — Chrome extension for selecting live DOM components and modifying UI locally with Grok.
+- [HyperGrok Trading Desk](https://github.com/galleonlabs/hypergrok-trading-desk) — Hyperliquid trading agent toolkit powered by Grok skills and subagents.
+
+## CLI
+
+- [grok-build](https://github.com/xai-org/grok-build) - SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+- [keke-agent](https://github.com/milisp/keke-agent) — Ultra-lightweight (7 MB) terminal coding agent written in Rust with Grok subscription login, directory routing, and non-interactive CI execution.
+- [grok-cli](https://github.com/superagent-ai/grok-cli) — Open-source terminal agent powered by Grok API.
+- [x-cli / grok-one-shot](https://github.com/x-cli-team/x-cli) — Conversational coding CLI with multi-file refactoring and git orchestration (`npx -y @xagent/x-cli@latest`).
 
 ## Community
-Connect with Grok users and developers.
 
-- **[Subreddit: r/grok](https://www.reddit.com/r/grok/)**: Reddit community discussing Grok’s features, performance, and user experiences.
-- **[Discord Server](https://discord.gg/4VXMtaQHk7)**: Unofficial Discord for Grok enthusiasts to discuss AI breakthroughs and share projects.
-- **Notable Community Projects**:
-  - **Grok Chatbot UI**: Custom web interface for Grok API. ([GitHub](https://github.com/example/grok-chatbot-ui))
-  - **Grok Data Visualizer**: Tool for visualizing Grok’s structured outputs. ([GitHub](https://github.com/example/grok-data-visualizer))
+- [r/grok Subreddit](https://www.reddit.com/r/grok/) — Community discussions on Grok updates, prompting, and projects.
+- [Unofficial Grok Discord](https://discord.gg/4VXMtaQHk7) — Community chat for developers building on the SpaceXAI platform.
 
-## Tools and Libraries
-Libraries and integrations to build with Grok.
+## Reading & Research
 
-| Tool/Library | Description | Links |
-|--------------|-------------|-------|
-| xAI Python SDK | Official gRPC-based Python library for Grok API, supporting synchronous and asynchronous clients. | [PyPI](https://pypi.org/project/xai-sdk/), [GitHub](https://github.com/xai-org/xai-sdk-python) |
-| xai_grok_sdk | Lightweight third-party Python library for Grok API with minimal dependencies and function calling support. | [GitHub](https://github.com/moesmufti/xai_grok_sdk) |
-| LangChain xAI Integration | LangChain support for xAI models, enabling easy integration with Grok for chat and streaming tasks. | [Documentation](https://python.langchain.com/docs/integrations/providers/xai/) |
-| Hugging Face Integration | Use Grok models with Hugging Face’s Transformers library. | [Hugging Face Hub](https://huggingface.co/xai) |
-| SuperGrok Mac | Free, Apple-notarized native macOS app (Apple Silicon, macOS 14+) for working with Grok's coding agent — real project folders, a real shell with approval gates on every command, and restorable sessions. Fan-built, not affiliated with xAI; requires your own SuperGrok subscription or xAI API key. | [Website](https://supergrokmac.com) |
-| Agent Teams AI | Free, open-source desktop app for autonomous coding-agent teams, with SuperGrok support, task delegation, inter-agent messaging, a live Kanban board, and code review. | [GitHub](https://github.com/777genius/agent-teams-ai) |
-| Aeon | Autonomous agent framework that runs unattended on GitHub Actions and drives Grok (via its harness adapter) as one of six coding-agent harnesses behind a single contract, with quality scoring, persistent memory, and a self-healing loop. | [GitHub](https://github.com/aeonfun/aeon) |
-| Agent Island | Free, MIT-licensed native status companion that shows local working, stalled and your-turn state for Grok, Claude Code, Codex, Antigravity and Cursor sessions, with provider usage and on-device cost estimates. macOS and Windows, no account, no product telemetry. | [GitHub](https://github.com/tristan666666/agent-island) |
-| Forge Design | Chrome extension + local bridge: pick or place a component on the live page, then local Grok edits the UI. Page data stays on-device. MIT. | [GitHub](https://github.com/forge-ui/forge-design-extension) |
-| HyperGrok Trading Desk | Grok-first Hyperliquid desk: seven agent skills for setup, orders, positions, market data, and a strategy lab. `npx skills add galleonlabs/hypergrok-trading-desk` | [GitHub](https://github.com/galleonlabs/hypergrok-trading-desk) |
-
-## CLI Tools
-Command-line tools for interacting with Grok.
-
-- **[grok-cli](https://github.com/superagent-ai/grok-cli)** - An open-source AI agent that brings the power of Grok directly into your terminal.
-- **[grok-one-shot](https://github.com/x-cli-team/x-cli)** - A self-improving CLI powered by xAI's Grok API, offering conversational code intelligence, multi-file editing, smart commit orchestration, and integrated CI/CD pipelines. Install: `npx -y @xagent/x-cli@latest`.
-
-## Research Papers
-Academic papers exploring Grok’s capabilities.
-
-| Title | Description | Link |
-|-------|-------------|------|
-| Grok, Gemini, ChatGPT and DeepSeek: Comparison and Applications | Comparative analysis of Grok with other conversational AI models, focusing on architecture and applications. | [ResearchGate](https://www.researchgate.net/publication/389065042_Grok_Gemini_ChatGPT_and_DeepSeek_Comparison_and_Applications_in_Conversational_Artificial_Intelligence) |
-| What’s in Grok? | Independent analysis by Dr. Alan D. Thompson on Grok’s training and capabilities. | [LifeArchitect.ai](https://lifearchitect.ai/whats-in-grok/) |
-
-## News and Articles
-Stay updated with announcements and media coverage.
-
-### Official Announcements
-- **[Grok 4](https://x.ai/news/grok-4)**: Announced July 2025, Grok 4 is the most intelligent model with native tool use and real-time search.
-- **[Grok 3 Beta](https://x.ai/news/grok-3)**: Introduced February 2025, featuring advanced reasoning and trained on the Colossus supercluster.
-
-### Media Coverage
-- **[Wikipedia: Grok (chatbot)](https://en.wikipedia.org/wiki/Grok_%28chatbot%29)**: Overview of Grok’s development, launch, and controversies.
-- **[Built In: What Is Grok?](https://builtin.com/articles/grok)**: Explains Grok’s purpose, features, and competitive stance.
-- **[Voiceflow: xAI Grok Tutorial](https://www.voiceflow.com/blog/grok)**: Discusses Grok’s multimodal capabilities and real-time data access via X.
-
-## Grok Version Status
-Status of Grok models to guide usage.
-
-- **Grok 1**: Open-source, available via GitHub, primarily for research purposes.
-- **Grok 2**: No longer supported as of July 2025.
-- **Grok 3 Beta**: Available for limited testing as of February 2025.
-- **Grok 4**: Latest model with advanced features, released July 2025.
-- **BigBrain Mode**: Internal xAI feature, not available in current plans.
-
-## Troubleshooting
-Common issues and workarounds.
-
-- **Android App Orientation Bug**: Restart the app to resolve screen rotation issues.
-- **API Rate Limits**: Check [xAI Developer Docs](https://docs.x.ai/) for quota details and optimization tips.
-- **Image Generation Errors**: Ensure input prompts comply with xAI’s content guidelines.
-
-## Licensing and Usage
-Terms for using Grok’s components and this list.
-
-- **Grok-1**: Licensed under Apache 2.0, available for non-commercial research. ([GitHub](https://github.com/xai-org/grok-1))
-- **Grok API**: Commercial use subject to xAI’s terms. See [xAI API Terms](https://x.ai/api-terms).
-- **Apps**: Free usage with quotas; higher limits with SuperGrok or Premium+ subscriptions.
-- **This Awesome List**: Licensed under the MIT License.
+- [Introducing Grok 4.6](https://docs.x.ai/developers/grok-4-6) — Latest release highlights, 500k context window, and agentic reasoning benchmarks.
+- [Grok 4.5 Announcement](https://x.ai/news/grok-4-5) — Deep dive into Grok 4.5 architecture for coding, agentic workflows, and reasoning.
+- [Grok 4.1 Fast & Agent Tools](https://x.ai/news/grok-4-1-fast) — Factuality improvements and low-latency tool execution.
+- [Grok 4 Announcement](https://x.ai/news/grok-4) — Original release details for the Grok 4 family.
+- [Wikipedia: Grok (chatbot)](https://en.wikipedia.org/wiki/Grok_%28chatbot%29) — Comprehensive background on development history and milestones.
+- [What's in Grok?](https://lifearchitect.ai/whats-in-grok/) — Independent model analysis and card by LifeArchitect.
 
 ## Contributing
-To add resources, submit a pull request to [Awesome Grok Repository](https://github.com/milisp/awesome-grok). Ensure links are valid and align with Grok’s mission.
 
-## Changelog
-Track updates to this list.
+Contributions are welcome! Please read the guidelines before submitting a PR to [milisp/awesome-grok](https://github.com/milisp/awesome-grok):
 
-- **August 2026**: Added HyperGrok Trading Desk, a Grok-first Hyperliquid desk of installable agent skills.
-- **August 2026**: Added Forge Design, a local-first Chrome extension for picking live page components and editing them with Grok.
-- **July 2025**: Added Grok 4 announcement, advanced tutorials, and community projects.
-- **March 2025**: Included Grok 3 Beta news and troubleshooting section.
+- One link per resource using the standard `[Title](URL) — Description` format.
+- Ensure all projects strictly support or integrate Grok / SpaceXAI models.
+- No dead links, unreleased placeholders, or generic LLM wrappers without explicit Grok functionality.
+- Keep descriptions factual, concise, and focused on key features (e.g., target OS, key capabilities).
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
