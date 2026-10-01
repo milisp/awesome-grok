@@ -49,7 +49,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.6 integration and SpaceX Colossus GPU compute backends.
 - [Grok Bot](https://x.ai/news/grok-bot-more-plans) — Official SpaceXAI autonomous agent teammate for work automation and X API actions.
 - [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
-- [Usage HUD](https://hud.thaliabloom.com) — Native macOS menu-bar meter for Grok, Claude, Codex, Gemini, and Ollama usage windows, with a confidence label on every number. Paid, $9.
+- [Usage HUD](https://hud.thaliabloom.com) — Native macOS menu-bar meter for Grok, Claude, Codex, Gemini, and Ollama usage windows, with a confidence label on every number. Free.
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
 - [Aeon](https://github.com/aeonfun/aeon) — Unattended GitHub Actions agent loop utilizing Grok as an execution harness.
 - [Agent Island](https://github.com/tristan666666/agent-island) — Cross-platform menu-bar companion for monitoring Grok, Claude Code, and Cursor local agent sessions.
