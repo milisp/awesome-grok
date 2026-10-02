@@ -65,6 +65,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 
 ## Community
 
+- [Grok Bot Wiki (unofficial)](https://www.grokbotwiki.com) — Independent setup guides, troubleshooting, and a searchable directory of public Grok Bot share links.
 - [r/grok Subreddit](https://www.reddit.com/r/grok/) — Community discussions on Grok updates, prompting, and projects.
 - [Unofficial Grok Discord](https://discord.gg/4VXMtaQHk7) — Community chat for developers building on the SpaceXAI platform.
 
